@@ -7,6 +7,7 @@ interface Balance {
   total: number;
 }
 
+
 interface CreateTransaction {
   title: string;
   value: number;

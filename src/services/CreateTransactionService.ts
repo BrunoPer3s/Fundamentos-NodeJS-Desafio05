@@ -7,6 +7,7 @@ interface requestDTO {
   type: 'income' | 'outcome';
 }
 
+
 class CreateTransactionService {
   private transactionsRepository: TransactionsRepository;
 
